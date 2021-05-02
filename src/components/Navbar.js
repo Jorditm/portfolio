@@ -17,6 +17,7 @@ const Navbar = () => {
         smooth={true}
         offset={0}
         duration={800}
+        isDynamic={true}
       >
         <p>HOME</p>
       </Link>
@@ -29,6 +30,7 @@ const Navbar = () => {
         smooth={true}
         offset={0}
         duration={800}
+        isDynamic={true}
       >
         <p>ABOUT</p>
       </Link>
@@ -41,6 +43,7 @@ const Navbar = () => {
         smooth={true}
         offset={0}
         duration={800}
+        isDynamic={true}
       >
         <p>WORKS</p>
       </Link>
@@ -53,6 +56,7 @@ const Navbar = () => {
         smooth={true}
         offset={0}
         duration={800}
+        isDynamic={true}
       >
         <p>CONTACT</p>
       </Link>

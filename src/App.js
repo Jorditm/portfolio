@@ -7,11 +7,13 @@ import About from "./pages/About";
 import Home from "./pages/Home";
 import Works from "./pages/Works";
 import Contact from "./pages/Contact";
+import BurgerMenu from "./components/BurgerMenu";
 
 function App() {
   return (
     <div className="app-container">
       <Navbar />
+      <BurgerMenu />
       <Element name="home">
         <Home />
       </Element>

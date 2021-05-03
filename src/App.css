@@ -390,6 +390,12 @@ nav a:nth-child(5) {
 }
 
 @media (min-width: 375px) and (max-width: 812px) {
+  .home-bg {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
   #home {
     flex-wrap: wrap;
     justify-content: center;
@@ -569,6 +575,12 @@ nav a:nth-child(5) {
 }
 
 @media (min-width: 375px) and (max-width: 812px) {
+  .about-bg {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
   #about {
     display: flex;
     justify-content: space-evenly;
@@ -721,6 +733,12 @@ nav a:nth-child(5) {
   width: 100%;
 }
 @media (min-width: 375px) and (max-width: 812px) {
+  .works-bg {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
   .works-title {
     display: flex;
     justify-content: flex-end;
@@ -940,6 +958,12 @@ footer p {
 }
 
 @media (min-width: 375px) and (max-width: 812px) {
+  .contact-bg {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+
   .contact-form form {
     width: 60%;
     display: flex;
